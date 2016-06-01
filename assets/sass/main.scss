@@ -1832,11 +1832,11 @@ body.is-touch {
 			border: 0;
 
 			&:before {
-				background: _palette(accent1);
+				// background: _palette(accent1);
 				color: _palette(fg-light);
 				content: '\f0c9';
 				display: block;
-				font-size: 18px;
+				font-size: 27px;
 				height: 44px;
 				left: 0;
 				line-height: 44px;
@@ -2068,4 +2068,12 @@ body.is-touch {
 }
 #banner header h2{
 	font-family: 'Poiret One', cursive;
+}
+
+
+
+#map {
+	width: 100%;
+	height: 400px;
+	margin-bottom: 30px;
 }

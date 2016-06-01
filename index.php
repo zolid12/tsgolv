@@ -21,8 +21,6 @@
 
 <body class="landing">
 	<div id="page-wrapper">
-
-		<!-- Header -->
 		<header id="header">
 			<h1 id="logo"><a href="index.html"></a></h1>
 			<nav id="nav">
@@ -208,7 +206,6 @@
 					<label for="email">Email</label>
 					<span class="ss-icon"><i class="fa fa-check" aria-hidden="true"></i></span>
 				</div>
-
 				<div class="field msg-box">
 					<textarea id="msg" rows="4" name="message" placeholder="Your message goes here..."></textarea>
 					<label for="msg">MEDDELANDE</label>
