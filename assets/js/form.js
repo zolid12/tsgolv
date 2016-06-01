@@ -12,6 +12,7 @@ $('textarea').blur(function () {
     });
 });
 
+
 $('#hire .field:first-child input').blur(function () {
     $('#hire .field:first-child input').each(function () {
         $this = $(this);

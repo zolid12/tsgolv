@@ -95,7 +95,7 @@
 				</header>
 				<p>Vår kundkrets består av privatpersoner, byggfirmor, fastighetsmäklare och bostadsrättsföreningar.</p>
 				<ul class="actions">
-					<li><a href="#hire" class="button scrolly">Mer</a></li>
+					<li><a href="#map" class="button scrolly">Mer</a></li>
 				</ul>
 			</div>
 			<a href="#three" class="goto-next scrolly">Next</a>
@@ -113,7 +113,7 @@
 					Idag kan du nästan få vilken nyans som helst på era golv det ni ska tänka på är att den bräda ni kikat på i affären eller bilden på nätet inte alltid blir som erat golv då brädan i affären säkert stått ett tag och erat golv nyss blivit behandlat.
 				</p>
 				<ul class="actions">
-					<li><a href="#hire" class="button scrolly">Mer</a></li>
+					<li><a href="#map" class="button scrolly">Mer</a></li>
 				</ul>
 			</div>
 			<a href="#four" class="goto-next scrolly">Next</a>
