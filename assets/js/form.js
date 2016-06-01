@@ -39,3 +39,18 @@ $('#hire .field:nth-child(2) input').blur(function () {
         }
     });
 });
+
+
+$('#hire .field:nth-child(3) input').blur(function () {
+    $('#hire .field:nth-child(3) input').each(function () {
+        $this = $(this);
+        if ( this.value != '' ) {
+          $this.addClass('focused');
+          $('.field:nth-child(3) input + label + span').css({'opacity': 1});
+        }
+        else {
+          $this.removeClass('focused');
+          $('.field:nth-child(3) input + label + span').css({'opacity': 0});
+        }
+    });
+});

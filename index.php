@@ -10,13 +10,6 @@
 	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-	<style>
-	#map {
-		width: 100%;
-		height: 400px;
-		margin-bottom: 30px;
-	}
-	</style>
 </head>
 
 <body class="landing">
@@ -203,9 +196,10 @@
 
 				<div class="field name-box">
 					<input type="text" id="email" name="email" placeholder="name@email.com"/>
-					<label for="email">Email</label>
+					<label for="email">EMAIL</label>
 					<span class="ss-icon"><i class="fa fa-check" aria-hidden="true"></i></span>
 				</div>
+
 				<div class="field msg-box">
 					<textarea id="msg" rows="4" name="message" placeholder="Your message goes here..."></textarea>
 					<label for="msg">MEDDELANDE</label>
