@@ -1,0 +1,172 @@
+form {
+  width: 58.33333%;
+  margin: 0 auto;
+}
+form .field {
+  width: 100%;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+
+form .field label {
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #313A3D;
+  width: 100%;
+  padding: 18px 0;
+  font-size: 1.45em;
+  letter-spacing: 0.075em;
+  -webkit-transition: all 333ms ease-in-out;
+  -moz-transition: all 333ms ease-in-out;
+  -o-transition: all 333ms ease-in-out;
+  -ms-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+form .field label + span {
+  // font-family: 'SSStandard';
+  /* font-family: 'SSStandard'; */
+  opacity: 0;
+  color: white;
+  display: block;
+  position: absolute;
+  top: 20px;
+  padding-left: 37px;
+  font-size: 1.4em;
+  /* text-shadow: 1px 2px 0 #cd6302; */
+  -webkit-transition: all 333ms ease-in-out;
+  -moz-transition: all 333ms ease-in-out;
+  -o-transition: all 333ms ease-in-out;
+  -ms-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+form .field input[type="text"],
+form .field textarea {
+  border: none;
+  background: #313A3D;
+  // width: 80.5%;
+  margin: 0;
+  padding: 18px 0;
+  padding-left: 19.5%;
+  color: #EEEEEE;
+  font-size: 1.4em;
+  letter-spacing: 0.05em;
+  // text-transform: uppercase;
+}
+form .field input[type="text"]#msg,
+form .field textarea#msg {
+   height: 62px;
+   resize: none;
+   -webkit-transition: all 333ms ease-in-out;
+   -moz-transition: all 333ms ease-in-out;
+   -o-transition: all 333ms ease-in-out;
+   -ms-transition: all 333ms ease-in-out;
+   transition: all 333ms ease-in-out;
+}
+
+form .field input[type="text"]:focus, form .field input[type="text"].focused,
+form .field textarea:focus,
+form .field textarea.focused {
+  outline: none;
+}
+form .field input[type="text"]:focus#msg, form .field input[type="text"].focused#msg,
+form .field textarea:focus#msg,
+form .field textarea.focused#msg {
+  padding-bottom: 150px;
+}
+form .field input[type="text"]:focus + label, form .field input[type="text"].focused + label,
+form .field textarea:focus + label,
+form .field textarea.focused + label {
+  width: 18%;
+  background: #2980b9;
+  color: white;
+}
+
+
+
+form .field input[type="text"].focused + label,
+form .field textarea.focused + label {
+  color: #2980b9;
+}
+form .field:hover label {
+  width: 18%;
+  background: #313A3D;
+  color: white;
+}
+form input[type="submit"] {
+   margin-top: 30px;
+  background: #313A3D;
+  color: white;
+  -webkit-appearance: none;
+  border: none;
+  text-transform: uppercase;
+  position: relative;
+  font-size: 1.4em;
+  letter-spacing: 0.1em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  -webkit-transition: all 333ms ease-in-out;
+  -moz-transition: all 333ms ease-in-out;
+  -o-transition: all 333ms ease-in-out;
+  -ms-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+ form input[type="submit"]:hover{
+  background: none !important;
+  color: white;
+}
+form input[type="submit"]:focus {
+  outline: none;
+  background: #2980b9;
+}
+
+
+.ss-icon{
+   font-size: 12px;
+}
+
+
+.hire{
+   form input[type="submit"]:hover {
+    background: #2980b9 !important;
+    color: white;
+  }
+  form input[type="submit"]:focus {
+    outline: none;
+    background: #2980b9 !important;
+  }
+}
+
+
+
+form .msg-box input[type="text"]:focus + label, form .msg-box input[type="text"].focused + label, form .msg-box textarea:focus + label, form .msg-box textarea.focused + label{
+   width: 100%;
+   // height: 40px;
+}
+
+form .msg-box:hover label {
+  width: 100%;
+}
+
+form .msg-box label{
+   // padding-top: 8px;
+   // font-size: 14px;
+}
+
+form .msg-box input[type="text"],
+form .msg-box textarea{
+   padding-left: 5%;
+   padding-right: 5%;
+   &:focus{
+      padding: 70px 0;
+      padding-left: 5%;
+      padding-right: 5%;
+   }
+}
+
+
+form .msg-box .focused{
+   padding-top: 70px;
+}
