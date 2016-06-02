@@ -32,7 +32,8 @@ form .field label + span {
   display: block;
   position: absolute;
   top: 20px;
-  padding-left: 37px;
+  padding-left: 9%;
+  margin-left: -10px;
   font-size: 1.4em;
   /* text-shadow: 1px 2px 0 #cd6302; */
   -webkit-transition: all 333ms ease-in-out;
