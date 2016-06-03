@@ -190,7 +190,7 @@
 
 				<div class="field name-box">
 					<input type="text" id="phone" name="phone" placeholder="Who Are You?"/>
-					<label for="phone">MOB</label>
+					<label for="phone">MOBIL</label>
 					<span class="ss-icon"><i class="fa fa-check" aria-hidden="true"></i></span>
 				</div>
 

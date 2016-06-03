@@ -12,7 +12,6 @@ $('textarea').blur(function () {
     });
 });
 
-
 $('#hire .field:first-child input').blur(function () {
     $('#hire .field:first-child input').each(function () {
         $this = $(this);
@@ -40,7 +39,6 @@ $('#hire .field:nth-child(2) input').blur(function () {
         }
     });
 });
-
 
 $('#hire .field:nth-child(3) input').blur(function () {
     $('#hire .field:nth-child(3) input').each(function () {
